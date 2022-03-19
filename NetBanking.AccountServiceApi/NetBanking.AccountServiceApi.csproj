@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetBanking.BusinessModels\NetBanking.BusinessModels.csproj" />
+    <ProjectReference Include="..\NetBanking.DataAccessLayer\NetBanking.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+
+</Project>
